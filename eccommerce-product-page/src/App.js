@@ -1,9 +1,9 @@
-import Body from "./components/Body";
+import Main from "./screens/Main";
 
 function App() {
   return (
-    <div className="container">
-      <Body />
+    <div className="App">
+      <Main />
     </div>
   );
 }
