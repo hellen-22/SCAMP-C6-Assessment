@@ -9,7 +9,6 @@ import smallImage3 from "./../images/image-product-3-thumbnail.jpg";
 import smallImage4 from "./../images/image-product-4-thumbnail.jpg";
 import { ReactComponent as Minus } from "./../images/icon-minus.svg";
 import { ReactComponent as Plus } from "./../images/icon-plus.svg";
-import Cart from "./Cart";
 import "./../css/Product.css";
 import ImageSlider from "./ImageSlider";
 
@@ -51,7 +50,7 @@ function Product() {
             />
           ) : (
             <>
-              <img src={displayPhoto}></img>
+              <img src={displayPhoto} alt=""> </img>
             </>
           )}
           <div className="product-image-thumbnail-container">
@@ -63,6 +62,7 @@ function Product() {
               <img
                 src={smallImage1}
                 onClick={() => changeDisplayPhoto(image1)}
+                alt=""
               />
             </div>
 
@@ -74,6 +74,7 @@ function Product() {
               <img
                 src={smallImage2}
                 onClick={() => changeDisplayPhoto(image2)}
+                alt=""
               />
             </div>
 
@@ -85,6 +86,7 @@ function Product() {
               <img
                 src={smallImage3}
                 onClick={() => changeDisplayPhoto(image3)}
+                alt=""
               />
             </div>
 
@@ -96,6 +98,7 @@ function Product() {
               <img
                 src={smallImage4}
                 onClick={() => changeDisplayPhoto(image4)}
+                alt=""
               />
             </div>
           </div>

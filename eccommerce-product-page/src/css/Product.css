@@ -136,8 +136,6 @@
   font-size: 16px;
 }
 
-/* Lightbox */
-
 @media screen and (max-width: 1200px) {
   .product {
     width: 95%;
