@@ -50,7 +50,7 @@ function Product() {
             />
           ) : (
             <>
-              <img src={displayPhoto} alt=""> </img>
+              <img src={displayPhoto} alt="Display Full"></img>
             </>
           )}
           <div className="product-image-thumbnail-container">
@@ -62,8 +62,8 @@ function Product() {
               <img
                 src={smallImage1}
                 onClick={() => changeDisplayPhoto(image1)}
-                alt=""
-              />
+                alt="Display Small"
+              ></img>
             </div>
 
             <div
@@ -74,8 +74,8 @@ function Product() {
               <img
                 src={smallImage2}
                 onClick={() => changeDisplayPhoto(image2)}
-                alt=""
-              />
+                alt="Display Small"
+              ></img>
             </div>
 
             <div
@@ -86,8 +86,8 @@ function Product() {
               <img
                 src={smallImage3}
                 onClick={() => changeDisplayPhoto(image3)}
-                alt=""
-              />
+                alt="Display Small"
+              ></img>
             </div>
 
             <div
@@ -98,8 +98,8 @@ function Product() {
               <img
                 src={smallImage4}
                 onClick={() => changeDisplayPhoto(image4)}
-                alt=""
-              />
+                alt="Display Small"
+              ></img>
             </div>
           </div>
         </div>

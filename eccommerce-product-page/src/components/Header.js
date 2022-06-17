@@ -70,7 +70,7 @@ function Header() {
           <IconCart
             className="navbar-cart"
             fill="#69707D"
-            fill-rule="nonzero"
+            fillRule="nonzero"
             onClick={toggleCart}
           />
           <img src={avatar} alt="avatar" className="navbar-avatar" />
